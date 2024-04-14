@@ -1,0 +1,98 @@
+-----------Git-------------------
+Version control System is atool that helps to track change in code
+Git is aversion control system.it is:
+popular
+free & Open Source
+fast and scalable
+command-
+pwd- current working direstory
+ls - list
+clear
+mkdir ---create folder
+cd -- into the folder
+cd .. ----- out of the folder
+git remote remove origin -----to remove origin from git
+git remote set-url origin [url] ----to set new remote origin
+git push -u origin main -----to push
+git add .   ----to add all modified folder
+
+to paste local project into git
+git init ----initialised the project
+git remote add origin [giturl]
+git remote -v ----check the status
+git branch   ---- to check the branch
+git branch -M main -----to change the branch name 
+
+
+
+-----Git config ---
+git config --global user.name "username"     ---priyankacode44
+git config --global user.email "Github email id"  ---priyankaspte44@gmail.com
+
+for checking
+git config --list
+
+
+-----------Branch------------
+git branch
+git checkout -b feature1           ---------to create new branch
+git checkout main             ----------switched to main branch
+git branch -d feature2              ---cannot delete your cuurent branch
+git branch -d feature1              -------------delete the feature1 branch
+git push origin feature1         ---------to malke changes in git hub on feature1 branch
+
+-----------Merging code---------
+git diff main        --------to compare current branch with main branch
+git merge main     --------------merge with main branch     OR
+PR(Pull Request)
+it lets you tell other about changes you have pushed to a branch in a repository on GitHub
+click on compare and pull request
+click on create pull request
+click on Merged pull request
+git pull origin main ----------------------the changed which present in feature file and in remote machine we need thid changes in our main branch(local)
+
+--------------Pull command---------
+git pull origin main
+used to fetch and download content from a remote repo and immidiately update the local repo to match that content
+
+
+-----------------Resolving Merge Conflicts------------------
+An event that takes place when Git is unable to atomatically resolves difference in code between two commits
+feture1 branch ----------------has some changes
+main branch -----------------has some diff changes
+git merge main ---------------------to merge with main
+git push          -------------------- to put changes in main branch
+
+---------Unndoing Changes---------------
+-----if we delete some code from local
+git reset filename
+----to reset alll files
+git reset
+git reset HEAD~1      ----------to reset 1 change before
+git log 
+git reset d4ba7e63bc9003e46dfb99911bb45f892165d2be  ---to go back 3 or 4 change before use hash code-d4ba7e63bc9003e46dfb99911bb45f892165d2be get from log
+git reset --hard d4ba7e63bc9003e46dfb99911bb45f892165d2be  -------to undo all changes
+
+
+
+-----------Github-----------
+Websites that allows developers to store and manage their code using Git
+We have folder and we call as Repositories
+
+Click here-
+repository name
+public radio button on
+click on readme file
+
+
+_______________vs code terminal
+ctr+l   ----------to clear terminal in vs
+
+------------------Fork-------------------------
+A fork is a new repository that shares code and visibility settings with the original "upstream" repository
+Fork is a rough copy
+
+check the project from search bar then click on fork
+unchecked copy the master branch only
+if you want new name to your repository you can take 
+

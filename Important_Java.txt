@@ -1,0 +1,2 @@
+for multiple comment---ctr+/
+for uncomment use the same commmand----ctr+/
